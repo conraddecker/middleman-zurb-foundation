@@ -5,30 +5,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
-    
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    
-    <!-- Use title if it's in the page YAML frontmatter -->
+
     <title><%= data.page.title || "The Middleman" %></title>
-    
-    <%= stylesheet_link_tag "normalize", "app", "style" %>
+
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag  "application" %>
   </head>
-  
+
   <body class="<%= page_classes %>">
     <%= yield %>
   </body>
-
-  <script>
-    document.write('<script src=' +
-    ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-    '.js><\/script>')
-  </script>
-
-  <%= javascript_include_tag  "all", "custom.modernizr" %>
-
-  <script>
-    $(document).foundation();
-  </script>
-
 </html>
