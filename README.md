@@ -2,6 +2,8 @@
 
 Middleman-Foundation is a [Middleman 3.x](http://middlemanapp.com/) project template with the [Compass](http://compass-style.org) and [SCSS](http://sass-lang.com/) version of the [ZURB Foundation](http://foundation.zurb.com/).
 
+Currently works with Foundation 4.1.6 and utilizes the fantastic [CodeSync](http://datapimp.github.io/code_sync/) project for live asset reloading.
+
 ## Installation ##
 
 Make sure to have:
@@ -13,10 +15,10 @@ Make sure to have:
 
 Clone into ~/.middleman (you'll have to create this directory if it's not already there). You can then use it with the `--template` flag on `middleman init`.
 
-1. $ `git clone git://github.com/axyz/middleman-zurb-foundation.git ~/.middleman/zurb-foundation`
+1. $ `git clone git://github.com/conraddecker/middleman-zurb-foundation.git ~/.middleman/zurb-foundation`
 2. $ `middleman init my_new_project --template=zurb-foundation`
 
-For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/) or feel free to hit me up on [Twitter](http://twitter.com/axyz).
+For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/) or feel free to hit me up on [Twitter](http://twitter.com/conraddecker).
 
 ## ZURB Foundation License ##
 
