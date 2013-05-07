@@ -53,7 +53,7 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-activate :livereload
+activate :code_sync
 
 # Build-specific configuration
 configure :build do
